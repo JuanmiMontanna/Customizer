@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Customizer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="module" src="src/js/index.js" defer></script>
+</head>
+<body>
+  <aside>
+    <label for="title">Title:</label>
+    <input type="text" name="title" id="title" maxlength="10">
+    <div class="range">
+      <input id="hRange" type="range" list="items" min="0" max="20" value="10">
+      <input id="vRange" type="range" list="items" min="" max="20" value="10">
+    </div>
+    <div class="radio">
+      <input id="blackRadio" type="radio" value="Black" name="t-shirt">Black<br>
+      <input id="whiteRadio" type="radio" value="White" name="t-shirt" checked>White<br>
+    </div>
+    <div id="images-container">
+      <div class="image">
+        <img src="src/images/t-shirt content/chamber.png" alt="chamber" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/cipher.png" alt="cipher" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/jett.png" alt="jett" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/killjoy.png" alt="killjoy" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/phoenix.png" alt="phoenix" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/raze.png" alt="raze" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/reyna.png" alt="reyna" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/sage.png" alt="sage" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/skye.png" alt="skye" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/sova.png" alt="sova" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/viper.png" alt="viper" draggable="true">
+      </div>
+      <div class="image">
+        <img src="src/images/t-shirt content/yoru.png" alt="yoru" draggable="true">
+      </div>
+    </div>
+  </aside>
+  <main>
+    <div id="img-container">
+      <img id="t-shirt" src="src/images/white.png" alt="Camiseta Blanca">
+      <img id="main-img" src="src/images/t-shirt content/chamber.png" alt="chamber">
+      <img id="minor-img" src="src/images/t-shirt content/chamber.png" alt="chamber">
+      <h1 id="img-name">CHAMBER</h1>
+      <div class="title"></div>
+    </div>
+    <h1>Custom your T-shirt</h1>
+  </main>
+</body>
+</html>
